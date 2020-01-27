@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Our Team Section</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #81c644;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .wrapper {
+    margin-top: 10%;
+  }
+
+  .wrapper h1 {
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .team {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .team .team_member {
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+  }
+
+  .team .team_member h3 {
+    color: #81c644;
+    font-size: 26px;
+    margin-top: 50px;
+  }
+
+  .team .team_member p.role {
+    color: #ccc;
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .team .team_member .team_img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+  }
+
+  .team .team_member .team_img img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+</style>
+
+<body>
+
+  <div class="wrapper">
+    <h1>Our Team</h1>
+    <div class="team">
+      <div class="team_member">
+        <div class="team_img">
+          <img src="https://blog.uta.edu/iscs1/files/2020/01/1580150583614.jpeg" alt="Team_image">
+        </div>
+        <h3>Shanthala Lakshminarayana</h3>
+        <p class="role">Shanthala Lakshminarayana, Ph.D.</p>
+        <p>Shanthala Lakshminarayana is a Ph.D. candidate in ISCS Lab at the University of Texas at
+            Arlington. She is currently working on readout circuit designs for electro-chemical sensing
+            systems and also in PCB design, testing.</p>
+      </div>
+      <div class="team_member">
+        <div class="team_img">
+          <img src="https://blog.uta.edu/iscs1/files/2020/01/yy1.png" alt="Team_image">
+        </div>
+        <h3>Younghun Park, Ph.D.</h3>
+        <p class="role">Younghun Park, Ph.D.</p>
+        <p>Younghun Park is a PhD candidate in ISCS Lab at University of Texas at Arlington. He is currently
+            working on an embedded system for the multiple sensor arrays, and developing graphic user
+            interface and mobile apps to read and analyze the wirelessly transmitted data. In addition, he
+            will develop machine learning algorithms for data analysis and prediction.</p>
+      </div>
+      <div class="team_member">
+        <div class="team_img">
+          <img src="https://blog.uta.edu/iscs1/files/2020/01/me1.jpg" alt="Team_image">
+        </div>
+        <h3>Karthik Gangadhara</h3>
+        <p class="role">Karthik Gangadhara, M.S</p>
+        <p>Karthik Gangadhara is a Master's student in ISCS Lab at University of Texas at Arlington. He is
+            currently working on an embedded system for the multiple sensor arrays, and developing graphic
+            user interface and mobile apps to read and analyze the wirelessly transmitted data.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
